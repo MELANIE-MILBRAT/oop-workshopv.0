@@ -4,18 +4,20 @@ class Movies : Media
     private int releaseDate;
     private string language;
     private string duration;
+    private string scene;
 
-    public Movies(string title, string creator, string genre, int releaseDate, string language, string duration) : base(title, creator)
+    public Movies(string title, string creator, string genre, int releaseDate, string language, string duration, string scene) : base(title, creator)
     {
         this.genre = genre;
         this.releaseDate = releaseDate;
         this.language = language;
         this.duration = duration;
+        this.scene = scene;
     }
     public void Watch()
     {
         Console.WriteLine("Watch scene: ");
-        Console.WriteLine("A mysteriou sship appears tr´hrough the fog as cannon fire tears across the sea. Captain Jack Sparrow draws his sword and smiles. Cursed pirates are closing in... and the battle for a legendary treasure has begun");
+        Console.WriteLine(scene);
         Console.WriteLine("----- EBOOK PREVIEW -----");
         Console.WriteLine("Title: " + title);
         Console.WriteLine("Author: " + creator);
