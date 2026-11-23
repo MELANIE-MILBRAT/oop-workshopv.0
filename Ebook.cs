@@ -1,11 +1,11 @@
 class Ebook : Media
  {
-    protected string language;
-    protected int pages;
-    protected int publicationDate;
-    protected string ISBN;
+    private string language;
+    private int pages;
+    private int publicationDate;
+    private string ISBN;
 
-    public Ebook(string title, string author, string language, int pages, int publicationDate, string ISBN): base(title, author)
+    public Ebook(string title, string creator, string language, int pages, int publicationDate, string ISBN) : base(title, creator)
     {
         this.language = language;
         this.pages = pages;
