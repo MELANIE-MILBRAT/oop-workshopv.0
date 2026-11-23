@@ -27,5 +27,6 @@ class Movies : Media
         Console.WriteLine("Duration: " + duration);
         Console.WriteLine("-------------------------");
         Console.WriteLine("Would you like to download this Movie?");
+                Console.WriteLine("");
     }
  }

@@ -27,6 +27,7 @@ class Songs : Media
         Console.WriteLine("Duration: " + duration);
         Console.WriteLine("-------------------------");
         Console.WriteLine("Would you like to download this song?");
+                Console.WriteLine("");
     }
 }
 

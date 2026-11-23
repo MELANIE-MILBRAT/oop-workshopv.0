@@ -23,5 +23,6 @@ class Ebook : Media
         Console.WriteLine("ISBN: " + ISBN);
         Console.WriteLine("-------------------------");
         Console.WriteLine("Would you like to download this ebook?");
+                Console.WriteLine("");
     }
 }
