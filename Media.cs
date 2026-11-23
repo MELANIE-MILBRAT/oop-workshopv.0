@@ -1,7 +1,7 @@
 class Media
 {
-    private title;
-    private creator;
+    protected string title;
+    protected string creator;
     
     public Media(string title, string creator)
     {
@@ -9,9 +9,9 @@ class Media
         this.creator = creator;
     }
     
-    public Download ()
+    public void Download ()
     {
-    Console.WriteLine("Download complete, enjoy!");
+        Console.WriteLine("Download complete, enjoy!");
     }
     
 }
