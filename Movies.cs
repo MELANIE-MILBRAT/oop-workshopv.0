@@ -14,15 +14,15 @@ class Movies : Media
         this.duration = duration;
         this.scene = scene;
     }
-    public void Watch()
+    public void PreWatch()
     {
-        Console.WriteLine("Watch scene: ");
-        Console.WriteLine(scene);
-        Console.WriteLine("----- EBOOK PREVIEW -----");
+        Console.WriteLine("----- MOVIE PREVIEW -----");
+        Console.WriteLine("Watch scene: " + scene);
+        Console.WriteLine ();
         Console.WriteLine("Title: " + title);
         Console.WriteLine("Author: " + creator);
         Console.WriteLine("Genre: " + genre);
-        Console.WriteLine("ReleaseDate: " + releaseDate);
+        Console.WriteLine("Release year: " + releaseDate);
         Console.WriteLine("Language: " + language);
         Console.WriteLine("Duration: " + duration);
         Console.WriteLine("-------------------------");

@@ -12,7 +12,7 @@ class Ebook : Media
         this.publicationYear = publicationYear;
         this.ISBN = ISBN;
     }
-    public void View()
+    public void PreView()
     {
         Console.WriteLine("----- EBOOK PREVIEW -----");
         Console.WriteLine("Title: " + title);
