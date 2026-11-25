@@ -20,44 +20,49 @@ class Employee : User
         Console.WriteLine("You chose " + mediaType + ":");
 
         Console.WriteLine("Please enter: ");
-        
+
+        string input;
         switch(mediaType)
         {
             case "Ebook":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
+                
                 break;
                 
             case "Movie":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
                 
             case "Song":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
 
             case "Video Game":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
 
             case "App":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
 
             case "Podcast":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
 
             case "Image":
                 Console.WriteLine("DE HER TING");
+                input = Console.ReadLine();
                 break;
 
             default:
                 Console.WriteLine("Invalid input");
                 break;
         }
-        Console.WriteLine("with , inbetween");
-
-        //string[] whatconstrukter = placeholdr.Split(',');
-        //Console.WriteLine(whatconstrukter[0]+whatconstrukter[1]+whatconstrukter[2]........);
     }
 }
