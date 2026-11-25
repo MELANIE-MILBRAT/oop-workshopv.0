@@ -2,7 +2,32 @@
 {
     static void Main(string []args)
     {
-        Console.WriteLine("Hej");
+        Console.WriteLine("Hello, what role do you have in this library?");
+        Console.WriteLine("- Borrower");
+        Console.WriteLine("- Employee");
+        Console.WriteLine("- Admin");
+
+string roleAnswer = Console.ReadLine();
+
+if (roleAnswer == "Borrower")
+{
+    //Så skal man name, age og CPR
+}
+
+else if (roleAnswer == "Employee")
+{
+        //Så skal man name, age og CPR
+}
+
+else if (roleAnswer == "Admin")
+{
+        //Så skal man name, age og CPR
+}
+
+else 
+{
+    Console.WriteLine("Invalid input");
+}
 
         //Ebog lavet
         Ebook harryPotter = new Ebook ("Harry Potter and the Philosopher's Stone", "J.K. Rowling", "English", 360, 2015, "9788702173222");
