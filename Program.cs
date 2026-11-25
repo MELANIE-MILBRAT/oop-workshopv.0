@@ -9,19 +9,12 @@
 
 string roleAnswer = Console.ReadLine();
 
-if (roleAnswer == "Borrower")
+if (roleAnswer == "Borrower" || roleAnswer == "Employee" || roleAnswer == "Admin")
 {
-    //Så skal man name, age og CPR
-}
-
-else if (roleAnswer == "Employee")
-{
-        //Så skal man name, age og CPR
-}
-
-else if (roleAnswer == "Admin")
-{
-        //Så skal man name, age og CPR
+    Console.WriteLine("Please enter your name, age and CPR, seperated by ,");
+    string nameAgeCpr = Console.ReadLine();
+    string[] info = nameAgeCpr.Split(',');
+    Console.WriteLine(info[0]+info[1]+info[2]);
 }
 
 else 
